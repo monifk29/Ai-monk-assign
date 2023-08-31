@@ -1,0 +1,91 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+  }
+
+
+  div {
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    margin-right: 5px;
+    padding: 4px 10px;
+    background-color: rgb(150,182,197);
+    border: 1px solid white;
+    color: whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+ 
+  span {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+    
+  input {
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  div > div {
+    display: none;
+  }
+
+  div > div:not(:empty) {
+  
+    display: block;
+    margin-left: 20px;
+  }
+  
+  .container{
+    background-color:  rgb(150,194,145);
+  }
+
+  .main{
+    
+    background-color: white;
+    /* border: 1px solid red; */
+    padding: 15px 10px ;
+  }
+
+  .top{
+  /* border: 1px solid blue; */
+  background-color:  rgb(91,154,139);
+  display: flex                             !important   ; 
+  justify-content: space-between;
+
+  
+  }
+
+  .addChildBtn{
+    width: 100px;
+  }
+
+  .name-sec{
+    width: 70%;
+  }
+
+  .mainCont{
+    background-color:   #7C9D96;
+    padding: 20px 20px 20px 40px ;
+  }
+
+  .export{
+     background-color: white;
+     color: #7C9D96;
+     margin: auto;
+     margin-top: 20px;
+     margin-left: 30px;
+  }
+
+  .dataDiv{
+    background-color:  rgb(91,154,139);
+  } 
